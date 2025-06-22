@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>___VARIABLE_featureName___</string>
+	<key>Description</key>
+	<string>Create Clean Architecture Feature (Presentation &amp; Domain Layers)</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>featureName</string>
+			<key>Name</key>
+			<string>Feature name</string>
+			<key>Description</key>
+			<string>The name of your feature (e.g., MovieList)</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>Summary</key>
+	<string>This generates a new feature using clean architecture.</string>
+</dict>
+</plist>
