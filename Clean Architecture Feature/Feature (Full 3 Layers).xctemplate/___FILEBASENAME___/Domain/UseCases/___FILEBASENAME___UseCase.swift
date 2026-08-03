@@ -8,6 +8,7 @@
 import Foundation
 import Combine
 
+// sourcery: AutoMockable
 protocol ___VARIABLE_featureName___UseCase {
     func execute() -> AnyPublisher<___VARIABLE_featureName___, any Error>
 }

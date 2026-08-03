@@ -20,10 +20,14 @@ extension ___VARIABLE_featureName___ {
     }
 }
 
-// MARK: - Mappings to CoreData Model
+// MARK: - Mappings to Data Model
 extension ___VARIABLE_featureName___ {
 //    func toCDModel() -> ___VARIABLE_featureName___CDModel {
-//        return .init(id: 0)
+//        return .init(id: Int32(id) ?? 0, context: CoreDataStack.shared.context)
+//    }
+
+//    func toSDModel() -> ___VARIABLE_featureName___SDModel {
+//        return .init(id: Int(id) ?? 0)
 //    }
 }
 
