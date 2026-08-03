@@ -37,17 +37,18 @@ make uninstall_templates
 
 1. In Xcode, select
    **File → New → File...**
+   
    <img src="img/select_file_from_template.png" width="65%">
 
-2. Choose your custom **Clean Architecture Feature** template from the list
+3. Choose your custom **Clean Architecture Feature** template from the list
     <img src="img/select_xcode_template.png" width="65%">
        
-3. Enter your feature/module name when prompted
+4. Enter your feature/module name when prompted
     <img src="img/enter_feature_name.png" width="65%">
 
-4. Select a location for the generated files
+5. Select a location for the generated files
 
-5. Click **Create**—your new feature structure will be generated automatically!
+6. Click **Create**—your new feature structure will be generated automatically!
     <img src="img/full_feature.png" width="50%">
 ---
 
