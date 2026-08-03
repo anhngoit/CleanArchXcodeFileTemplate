@@ -11,11 +11,11 @@ import Factory
 
 @MainActor
 class ___VARIABLE_featureName___ViewModel: BaseViewModel {
-    
+
     // MARK: Use cases
     /// Inject all use cases here
     /// @Injected(\.getItemUseCase) private var getItemUseCase
-    
+
     // MARK: Private Properties
 
     // MARK: - Output
@@ -23,34 +23,15 @@ class ___VARIABLE_featureName___ViewModel: BaseViewModel {
 
     // MARK: - Localized
     /// let navigationTitle = "Title"
-    
-    // MARK: Init
-    override init() {
-        super.init()
+
+    // MARK: Life Cycle
+    /// Called from the view's `.task`. Do the initial load here, not in `init`,
+    /// so previews and tests can create the view model without triggering it.
+    func onAppear() {
         doSomething()
     }
-    
+
     // MARK: Private Methods
     private func doSomething() {
-        /*
-        isLoading = true
-        getItemUseCase.execute()
-            .receive(on: DispatchQueue.main)
-            .sink { [weak self] completion in
-                guard let self = self else { return }
-                self.isLoading = false
-                if case .failure(let error) = completion {
-                    // Handle Showing Error here
-                    /// activeAlert = .error(error.localizedDescription)
-                    
-                }
-            } receiveValue: { [weak self] responseValue in
-                guard let self = self else { return }
-                // Handle Showing response value here
-                /// self.items = responseValue.items
-
-            }
-            .store(in: &cancellables)
-         */
     }
 }

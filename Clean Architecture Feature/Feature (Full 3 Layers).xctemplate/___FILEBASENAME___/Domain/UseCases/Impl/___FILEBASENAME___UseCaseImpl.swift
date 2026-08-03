@@ -9,17 +9,11 @@ import Foundation
 import Factory
 import Combine
 
-class ___VARIABLE_featureName___UseCaseImpl: ___VARIABLE_featureName___UseCase {
-    
+final class ___VARIABLE_featureName___UseCaseImpl: ___VARIABLE_featureName___UseCase {
+
     // Inject All Repositories Here
     /// @Injected(\.itemRepository) private var itemRepository
-    
-    private var cancellables = Set<AnyCancellable>()
 
-    init() {
-
-    }
-    
     func execute() -> AnyPublisher<___VARIABLE_featureName___, any Error> {
         // return itemRepository.fetchItems()
         Just(___VARIABLE_featureName___.stub())
